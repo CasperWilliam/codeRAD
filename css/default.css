@@ -1,7 +1,7 @@
 :root {
   --white: #FFF;
   --black: #000;
-  --font-color-base: #666
+  --font-color-base: #666;
   --font-color-light: #212529;
   --font-color-light: #b0aebe;
   --font-color-link: #57a6ff;
@@ -13,8 +13,8 @@
   --grad-1: #a1ecff;
   --grad-2: #7dbcff;
 
-  --size-10: .0625rem;
-  --size-14: .0875rem;
+  --size-10: .625rem;
+  --size-14: .875rem;
   --size-16: 1rem;
   --size-18: 1.125rem;
   --size-20: 1.25rem;
@@ -28,7 +28,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 0.875;
+  font-size: var(--size-14);
   line-height: 1.6;
   letter-spacing: 0;
   color: var(--font-color-base);
@@ -102,4 +102,8 @@ img {
 
 @media (min-width: 1200px) {
   .container {max-width: 1140px;}
+}
+
+@media (min-width: 768px) {
+  .pricing-table {max-width: 720px;}
 }
