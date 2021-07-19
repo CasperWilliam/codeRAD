@@ -433,3 +433,22 @@ footer .footer-col.contact-info {
 }
 
 .footer-bottom-links ul li a {color: var(--white);}
+
+#scrollUp {
+  background-color: transparent;
+  bottom: var(--size-30);
+  background-image: linear-gradient(
+90deg
+, #9ccdfe 0%, #94aafd 100%);
+  color: var(--white);
+  font-size: var(--size-20);
+  height: var(--size-50);
+  width: var(--size-50);
+  line-height: var(--size-50);
+  position: fixed;
+  right: var(--size-30);
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 100;
+}
